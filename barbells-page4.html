@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFEFITS Fitness Equipment Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt="LIFEFITS Logo"></a>
+        </div>
+        <nav class="nav-links">
+            <a href="shop.html">Shop</a>
+            <a href="dumbbells.html">Dumbbells</a>
+            <a href="barbells.html">Barbells</a>
+            <a href="plates.html">Plates</a>
+            <a href="strength_equipment.html">Strength Equipment</a>
+            <a href="flooring_mats.html">Flooring & Mats</a>
+            <a href="deals.html">Deals</a>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> / <a href="barbells.html">Barbells</a> / Trap Bar
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="product-image">
+            <img src="barbell4.png" alt="Trap Bar">
+        </div>
+        <div class="product-details">
+            <h1>Trap Bar</h1>
+            <div class="price">$120 - $250</div>
+            <div class="add-to-cart">
+                <a href="#cart-modal">Add to Cart</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cart Modal -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-modal" id="cart-modal">
+        <h2>OK, 1 items were added to your cart. What's next?</h2>
+        <div class="cart-details">
+            <p><strong>Trap Bar</strong><br>$120 - $250</p>
+            <p><strong>Subtotal:</strong> $120 - $250</p>
+        </div>
+        <div class="buttons">
+            <a href="#close" class="close">Close</a>
+            <a href="#confirmation-message" class="checkout">Proceed to Checkout</a>
+        </div>
+    </div>
+
+    <!-- Confirmation Message -->
+    <div class="confirmation-message" id="confirmation-message">
+        Your order has been confirmed!
+    </div>
+</body>
+</html>
